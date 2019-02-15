@@ -66,7 +66,7 @@ public class ReceiptsTestMyCompany extends TestBase {
     @Test
     public void createReceipts() {
 
-        extentLogger = report.createTest("Verify Create and Save button are clickable");
+        extentLogger = report.createTest("Verify addAnItem and Save button are clickable");
         extentLogger.info("Click the receipts link");
         pages.getReceiptsMyCompanyPage().receiptsLink.click();
 

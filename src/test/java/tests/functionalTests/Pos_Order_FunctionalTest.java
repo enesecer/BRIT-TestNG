@@ -11,6 +11,7 @@ public class Pos_Order_FunctionalTest extends TestBase {
 
       HomePage homePage=new HomePage();
       LoginPage loginPage=new LoginPage();
+
       @Test(description = "verify that the inventory weblink in click able")
     public HomePage getHomePage() {
     extentLogger=report.createTest("Inventory weblink is cclickable");
